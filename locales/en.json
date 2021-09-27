@@ -1,166 +1,166 @@
 {
   "clip": {
-    "description": "Plays a clip sound",
-    "usagesReply": "Usage: /clip <name>",
-    "errorQueue": "Can't play clip because there is an active queue.",
-    "errorNotChannel": "You need to join a voice channel first!"
+    "description": "Воспроизводит звук клипа",
+    "usagesReply": Использование: /clip <name>",
+    "errorQueue": "Невозможно воспроизвести клип, потому что существует активная очередь.",
+    "errorNotChannel": "Сначала вам нужно присоединиться к голосовому каналу!"
   },
   "clips": {
-    "description": "List all clips"
+    "description": "Список всех клипов"
   },
   "help": {
-    "description": "Display all commands and descriptions",
+    "description": "Показывает все команды и описания",
     "embedTitle": "{botname} Help",
-    "embedDescription": "List of all commands"
+    "embedDescription": "Список всех команд"
   },
   "invite": {
-    "description": "Send bot invite link"
+    "description": "Отправить ссылку для приглашения бота"
   },
   "loop": {
-    "description": "Toggle music loop",
-    "errorNotQueue": "There is nothing playing.",
-    "result": "Loop is now {loop}"
+    "description": "Повтор музыки",
+    "errorNotQueue": "Ничего не играет.",
+    "result": "Повтор включён{повтор}"
   },
   "lyrics": {
-    "description": "Get lyrics for the currently playing song",
-    "errorNotQueue": "There is nothing playing.",
-    "lyricsNotFound": "No lyrics found for {title}.",
-    "embedTitle": "{title} - Lyrics"
+    "description": "Получение текста для воспроизводимой в данный момент песни",
+    "errorNotQueue": "Ничего не играет.",
+    "lyricsNotFound": "Не найдено ни одного текста для {title}.",
+    "embedTitle": "{title} - Текст"
   },
   "move": {
-    "description": "Move songs around in the queue",
-    "errorNotQueue": "There is no queue.",
-    "usagesReply": "Usage: {prefix}move <Queue Number>",
-    "result": "<@{author}> 🚚 moved **{title}** to {index} in the queue."
+    "description": "Перемещение песен в очереди",
+    "errorNotQueue": "Здесь нет очереди.",
+    "usagesReply": "Использование: {prefix}move <Номер очереди>",
+    "result": "<@{author}> рџљљ moved **{title}** to {index} in the queue."
   },
   "nowplaying": {
-    "description": "Show now playing song",
-    "errorNotQueue": "There is nothing playing.",
-    "embedTitle": "Now playing",
-    "live": " ◉ LIVE",
-    "timeRemaining": "Time Remaining: {time}"
+    "description": "Показать активную песню",
+    "errorNotQueue": "Ничего не играет",
+    "embedTitle": "Сейчас играет",
+    "live": " в—‰ LIVE",
+    "timeRemaining": "Осталось времени: {time}"
   },
   "pause": {
-    "description": "Pause the currently playing music",
-    "errorNotQueue": "There is nothing playing.",
-    "result": "<@{author}> ⏸ paused the music."
+    "description": "Приостановить воспроизведение текущей музыки",
+    "errorNotQueue": "Ничего не играет.",
+    "result": "<@{author}> вЏё приостановил музыку."
   },
   "ping": {
-    "description": "Show the bot's average ping",
-    "result": "📈 Average ping to API: {ping} ms"
+    "description": "Показывает средний пинг бота",
+    "result": "рџ“€ Средний пинг до API: {ping} ms"
   },
   "play": {
-    "description": "Plays audio from YouTube or Soundcloud",
-    "errorNotChannel": "You need to join a voice channel first!",
-    "errorNotInSameChannel": "You must be in the same channel as {user}",
+    "description": "Воспроизводит аудио с YouTube или Soundcloud",
+    "errorNotChannel": "Сначала необходимо присоединиться к голосовому каналу!",
+    "errorNotInSameChannel": "Вы должны находиться на том же канале, что и{user}",
     "usageReply": "Usage: {prefix}play <YouTube URL | Video Name | Soundcloud URL>",
-    "missingPermissionConnect": "Cannot connect to voice channel, missing permissions",
-    "missingPermissionSpeak": "I cannot speak in this voice channel, make sure I have the proper permissions!",
-    "queueAdded": "✅ **{title}** has been added to the queue by <@{author}>",
-    "cantJoinChannel": "Could not join the channel: {error}",
-    "queueEnded": "❌ Music queue ended.",
-    "queueError": "Error: {error}",
-    "startedPlaying": "🎶 Started playing: **{title}** {url}",
-    "skipSong": "<@{author}> ⏩ skipped the song",
-    "pauseSong": "<@{author}> ⏸ paused the music.",
-    "resumeSong": "<@{author}> ▶ resumed the music!",
-    "unmutedSong": "<@{author}> 🔊 unmuted the music!",
-    "mutedSong": "<@{author}> 🔇 muted the music!",
-    "decreasedVolume": "<@{author}> 🔉 decreased the volume, the volume is now {volume}%",
-    "increasedVolume": "<@{author}> 🔊 increased the volume, the volume is now {volume}%",
-    "loopSong": "<@{author}> Loop is now {loop}",
-    "stopSong": "<@{author}> ⏹ stopped the music!",
-    "leaveChannel": "Leaving voice channel...",
-    "songNotFound": "Audio Not Found"
+    "missingPermissionConnect": "Немогу зайти в канал, недостаточно прав",
+    "missingPermissionSpeak": "Не могу говорить в этом канале, убедитесь что у меня есть права!",
+    "queueAdded": "вњ… **{title}** была добавлена в очередь<@{author}>",
+    "cantJoinChannel": "Не удалось присоединиться к каналу{error}",
+    "queueEnded": "вќЊ Очередь музыки закончилась.",
+    "queueError": "ошибка: {error}",
+    "startedPlaying": "рџЋ¶ Играет: **{title}** {url}",
+    "skipSong": "<@{author}> вЏ© пропуск музыки",
+    "pauseSong": "<@{author}> вЏё приостановил музыку.",
+    "resumeSong": "<@{author}> в–¶ продолжил музыку!",
+    "unmutedSong": "<@{author}> рџ”Љ размутил музыку!",
+    "mutedSong": "<@{author}> рџ”‡ замутил музыку!",
+    "decreasedVolume": "<@{author}> рџ”‰ уменьшил громкость, громкость сейчас {volume}%",
+    "increasedVolume": "<@{author}> рџ”Љ увеличил громкость, громкость сейчас {volume}%",
+    "loopSong": "<@{author}> Повтор включён {loop}",
+    "stopSong": "<@{author}> вЏ№ остановил музыку!",
+    "leaveChannel": "Покидаю голосовой канал...",
+    "songNotFound": "Аудио не найдено"
   },
   "playlist": {
-    "description": "Play a playlist from youtube",
-    "usagesReply": "Usage: {prefix}playlist <YouTube Playlist URL | Playlist Name>",
-    "errorNotChannel": "You need to join a voice channel first!",
-    "errorNotInSameChannel": "You must be in the same channel as {user}",
-    "missingPermissionConnect": "Cannot connect to voice channel, missing permissions",
-    "missingPermissionSpeak": "I cannot speak in this voice channel, make sure I have the proper permissions!",
-    "errorNotFoundPlaylist": "Playlist not found :(",
-    "fetchingPlaylist": "⌛ fetching the playlist...",
-    "playlistCharLimit": "\nPlaylist larger than character limit...",
-    "startedPlaylist": "<@{author}> Started a playlist",
-    "cantJoinChannel": "Could not join the channel: {error}"
+    "description": "Воспроизведение плейлиста с YouTube"
+    "usagesReply": "Использование: {prefix}playlist <YouTube Playlist URL | Playlist Name>",
+    "errorNotChannel": "Сначала необходимо присоединиться к голосовому каналу!",
+    "errorNotInSameChannel": "Вы должны находиться на том же канале, что и  {user}",
+    "missingPermissionConnect": "Немогу зайти в канал, недостаточно прав",
+    "missingPermissionSpeak": "Не могу говорить в этом канале, убедитесь что у меня есть права!",
+    "errorNotFoundPlaylist": "Плейлист не найден:(",
+    "fetchingPlaylist": "вЊ› получение плейлиста...",
+    "playlistCharLimit": "\nПлейлист превышает лимит символов...",
+    "startedPlaylist": "<@{author}> Запуск плейлиста",
+    "cantJoinChannel": "Не удалось присоединиться к каналу: {error}"
   },
   "pruning": {
-    "description": "Toggle pruning of bot messages",
-    "errorWritingFile": "There was an error writing to the file.",
-    "result": "Message pruning is {result}"
+    "description": "Переключение обрезки сообщений ботов",
+    "errorWritingFile": "Произошла ошибка при записи в файл.",
+    "result": "Обрезка - {result}"
   },
   "queue": {
-    "description": "Show the music queue and now playing.",
-    "missingPermissionMessage": "Missing permission to manage messages or add reactions",
-    "errorNotQueue": "❌ **Nothing playing in this server**",
-    "currentPage": "Current Page - ",
-    "embedTitle": "Song Queue\n",
-    "embedCurrentSong": "**Current Song - [{title}]({url})**\n\n{info}"
+    "description": "Показать очередь музыки и текущее аудио",
+    "missingPermissionMessage": "Отсутствует разрешение на управление сообщениями или добавление реакций",
+    "errorNotQueue": "вќЊ **На этом сервере ничего не играет**",
+    "currentPage": "Текущая страница - ",
+    "embedTitle": "Очередь музыки\n",
+    "embedCurrentSong": "**Текущая музыка - [{title}]({url})**\n\n{info}"
   },
   "remove": {
-    "description": "Remove song from the queue",
-    "errorNotQueue": "There is no queue.",
-    "usageReply": "Usage: {prefix}remove <Queue Number>",
-    "result": "<@{author}> ❌ removed **{title}** from the queue."
+    "description": "Удалить песню из очереди",
+    "errorNotQueue": "Здесь нет очереди.",
+    "usageReply": "Использование: {prefix}remove <Queue Number>",
+    "result": "<@{author}> вќЊ удалил **{title}** с очереди."
   },
   "resume": {
-    "description": "Resume currently playing music",
-    "errorNotQueue": "There is nothing playing.",
-    "resultNotPlaying": "<@{author}> ▶ resumed the music!",
-    "errorPlaying": "The queue is not paused."
+    "description": "Возобновить воспроизведение текущей музыки
+    "errorNotQueue": "Здесь ничего не играет.",
+    "resultNotPlaying": "<@{author}> в–¶ возобновил музыку!",
+    "errorPlaying": "Очередь не приостановлена."
   },
   "search": {
-    "description": "Search and select videos to play",
-    "usageReply": "Usage: {prefix}{name} <Video Name>",
-    "errorAlreadyCollector": "A message collector is already active in this channel.",
-    "errorNotChannel": "You need to join a voice channel first!",
-    "resultEmbedTtile": "**Reply with the song number you want to play**",
-    "resultEmbedDesc": "Results for: {search}"
+    "description": "Поиск и выбор видео для воспроизведения",
+    "usageReply": "Использование: {prefix}{name} <Video Name>",
+    "errorAlreadyCollector": "A Коллектор сообщений уже активен в этом канале..",
+    "errorNotChannel": "Сначала вам нужно присоединиться к голосовому каналу!",
+    "resultEmbedTtile": "**Укажите номер песни, которую вы хотите воспроизвести**",
+    "resultEmbedDesc": "Результаты для: {search}"
   },
   "shuffle": {
-    "description": "Shuffle queue",
-    "errorNotQueue": "There is no queue.",
-    "result": "<@{author}> 🔀 shuffled the queue"
+    "description": "Перемешивание очереди",
+    "errorNotQueue": "Здесь нет очереди.",
+    "result": "<@{author}> рџ”Ђ перемешал очередь"
   },
   "skip": {
-    "description": "Skip the currently playing song",
-    "errorNotQueue": "There is nothing playing that I could skip for you.",
-    "result": "<@{author}> ⏭ skipped the song"
+    "description": "Пропустить текущую музыку",
+    "errorNotQueue": "Здесь нет музыку которую возможно пропустить.",
+    "result": "<@{author}> вЏ­ пропустил музыку"
   },
   "skipto": {
-    "description": "Skip to the selected queue number",
-    "usageReply": "Usage: {prefix}{name} <Queue Number>",
-    "errorNotQueue": "There is no queue.",
-    "errorNotValid": "The queue is only {length} songs long!",
-    "result": "<@{author}> ⏭ skipped {arg} songs"
+    "description": "Пропуск до выбранного номера очереди",
+    "usageReply": "Использование: {prefix}{name} <Queue Number>",
+    "errorNotQueue": "Здесь нет очереди.",
+    "errorNotValid": "Очередь только{length} длина песен!",
+    "result": "<@{author}> вЏ­ пропустил {arg} песни"
   },
   "stop": {
-    "description": "Stops the music",
-    "errorNotQueue": "There is nothing playing.",
-    "result": "<@{author}> ⏹ stopped the music!"
+    "description": "Остановить музыку",
+    "errorNotQueue": "Здесь ничего не играет.",
+    "result": "<@{author}> вЏ№ остановил музыку!"
   },
   "uptime": {
-    "description": "Check the uptime",
+    "description": "Проверить сколько работал без перереыва",
     "result": "Uptime: `{days} day(s),{hours} hours, {minutes} minutes, {seconds} seconds`"
   },
   "volume": {
-    "description": "Change volume of currently playing music",
-    "errorNotQueue": "There is nothing playing.",
-    "errorNotChannel": "You need to join a voice channel first!",
-    "currentVolume": "🔊 The current volume is: **{volume}%**",
-    "errorNotNumber": "Please use a number to set volume.",
-    "errorNotValid": "Please use a number between 0 - 100.",
-    "result": "Volume set to: **{arg}%**"
+    "description": "Изменение громкости воспроизводимой музыки",
+    "errorNotQueue": "Здесь ничего не играет.",
+    "errorNotChannel": "Сначала необходимо присоединиться к голосовому каналу!",
+    "currentVolume": "рџ”Љ Текущая громкость: **{volume}%**",
+    "errorNotNumber": "Пожалуйста, используйте цифру для установки громкости.",
+    "errorNotValid": "Пожалуйста, используйте число между0 - 100.",
+    "result": "Громкость: **{arg}%**"
   },
   "common": {
     "on": "**on**",
     "off": "**off**",
     "enabled": "**enabled**",
     "disabled": "**disabled**",
-    "errorNotChannel": "You need to join a voice channel first!",
+    "errorNotChannel": "Сначала вам нужно присоединиться к голосовому каналу!",
     "cooldownMessage": "please wait {time} more second(s) before reusing the `{name}` command.",
-    "errorCommand": "There was an error executing that command."
+    "errorCommand": "При выполнении этой команды произошла ошибка."
   }
 }
