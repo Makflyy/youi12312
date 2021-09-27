@@ -142,7 +142,7 @@
 		"result": "<@{author}> ⏹ остановил музыку!"
 	},
 	"uptime": {
-		"description": "Проверить сколько работал без перереыва",
+		"description": "Проверить сколько работал без перерыва",
 		"result": "Uptime: `{days} day(s),{hours} hours, {minutes} minutes, {seconds} seconds`"
 	},
 	"volume": {
