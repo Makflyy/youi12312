@@ -75,7 +75,7 @@
 	},
 	"playlist": {
 		"description": "Воспроизведение плейлиста YouTube",
-		"usagesReply": "Использование: {prefix}playlist <YouTube Playlist URL | Playlist Name>",
+		"usageReply": "Использование: {prefix}playlist <YouTube Playlist URL | Playlist Name>",
 		"errorNotChannel": "Сначала необходимо присоединиться к голосовому каналу!",
 		"errorNotInSameChannel": "Вы должны находиться на том же канале, что и  {user}",
 		"missingPermissionConnect": "Немогу зайти в канал, недостаточно прав",
